@@ -6,9 +6,9 @@ int main()
     char yesOrNo;
     do
     {
-        double x, y;
+        double x, y {};
         char action {};
-        double result;
+        double result {};
         std::cout << "Enter first value: ";
         std::cin >> x;
         while (action != '+' && action != '-' && action != '*' && action != '/')
